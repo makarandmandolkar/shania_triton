@@ -1,0 +1,5 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libraw_kinematics.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/raw_kinematics.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/raw_kinematics/main
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/raw_kinematics/cmake/raw_kinematicsConfig-version.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/raw_kinematics/cmake/raw_kinematicsConfig.cmake

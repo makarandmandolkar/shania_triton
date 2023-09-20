@@ -1,0 +1,7 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/accerion_driver.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/accerion_driver/accerion_visualization
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/accerion_driver/accerion_driver
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/python2.7/dist-packages/python_visualization/__init__.py
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/python2.7/dist-packages/g2o/__init__.py
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/accerion_driver/cmake/accerion_driverConfig-version.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/accerion_driver/cmake/accerion_driverConfig.cmake

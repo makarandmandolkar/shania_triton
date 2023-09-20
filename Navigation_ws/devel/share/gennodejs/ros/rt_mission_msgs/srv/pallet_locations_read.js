@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/share/gennodejs/ros/rt_mission_msgs/srv/pallet_locations_read.js

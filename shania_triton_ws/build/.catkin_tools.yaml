@@ -1,0 +1,6 @@
+devel_space: /home/makarand/Documents/shania_triton_ws/devel
+install: false
+install_space: /home/makarand/Documents/shania_triton_ws/install
+profile: default
+source_space: /home/makarand/Documents/shania_triton_ws/src
+workspace: /home/makarand/Documents/shania_triton_ws

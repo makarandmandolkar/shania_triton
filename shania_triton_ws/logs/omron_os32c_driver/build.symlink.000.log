@@ -1,0 +1,6 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libomron_os32c.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/omron_os32c_driver.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/omron_os32c_driver/omron_os32c_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/omron_os32c_driver/scanner_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/omron_os32c_driver/cmake/omron_os32c_driverConfig-version.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/omron_os32c_driver/cmake/omron_os32c_driverConfig.cmake

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target scanner_node[0m
+[35m[1mScanning dependencies of target omron_os32c[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/omron_os32c.dir/src/os32c.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/scanner_node.dir/src/scanner_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/omron_os32c_driver/lib/omron_os32c_driver/scanner_node[0m
+[ 50%] Built target scanner_node
+[ 66%] [32m[1mLinking CXX shared library /home/makarand/Documents/shania_triton_ws/devel/.private/omron_os32c_driver/lib/libomron_os32c.so[0m
+[ 66%] Built target omron_os32c
+[35m[1mScanning dependencies of target omron_os32c_node[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/omron_os32c_node.dir/src/os32c_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node[0m
+[100%] Built target omron_os32c_node

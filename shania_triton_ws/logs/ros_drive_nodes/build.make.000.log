@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target tri_node[0m
+[35m[1mScanning dependencies of target bbx_node[0m
+[35m[1mScanning dependencies of target mec_node[0m
+[35m[1mScanning dependencies of target diff_node[0m
+[35m[1mScanning dependencies of target uni_node[0m
+[35m[1mScanning dependencies of target shania_node[0m
+[  8%] [32mBuilding CXX object CMakeFiles/bbx_node.dir/src/bbx.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mec_node.dir/src/mec.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uni_node.dir/src/uni.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shania_node.dir/src/shania.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diff_node.dir/src/diff.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tri_node.dir/src/tri.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/bbx_node[0m
+[ 58%] Built target bbx_node
+[ 66%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/diff_node[0m
+[ 75%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/shania_node[0m
+[ 83%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/tri_node[0m
+[ 91%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/uni_node[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes/lib/ros_drive_nodes/mec_node[0m
+[100%] Built target diff_node
+[100%] Built target shania_node
+[100%] Built target tri_node
+[100%] Built target mec_node
+[100%] Built target uni_node

@@ -1,0 +1,243 @@
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target accerion_driver_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target accerion_driver_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target accerion_driver_msgs_generate_messages_py
+[35m[1mScanning dependencies of target accerion_driver_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target accerion_driver_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target accerion_driver_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target accerion_driver_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target accerion_driver_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target accerion_driver_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target accerion_driver_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target AccerionSensorAPI[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target accerion_visualization[0m
+[  2%] [32mBuilding CXX object CMakeFiles/accerion_visualization.dir/src/Visualization.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/accerion_visualization.dir/src/utils.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/accerion_visualization.dir/src/main_visualization.cpp.o[0m
+[  4%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/command_parser.cpp.o[0m
+[  4%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/crc8.cpp.o[0m
+[  5%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/acknowledgement.cpp.o[0m
+[  6%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/buffer_length.cpp.o[0m
+[  7%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/buffer_progress.cpp.o[0m
+[  8%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/capture_frame.cpp.o[0m
+[ 10%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/delete_recordings.cpp.o[0m
+[ 11%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/date_time.cpp.o[0m
+[ 11%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/file_transfer_handshake.cpp.o[0m
+[ 12%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/file_transfer_task.cpp.o[0m
+[ 13%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/heart_beat.cpp.o[0m
+[ 14%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/ip_address.cpp.o[0m
+[ 15%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/map_header_message.cpp.o[0m
+[ 16%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/map_subset.cpp.o[0m
+[ 17%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_aruco_marker.cpp.o[0m
+[ 18%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_area_ids.cpp.o[0m
+[ 18%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_cluster_ids.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/accerion_driver/lib/accerion_driver/accerion_visualization[0m
+[ 21%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_console_output_info.cpp.o[0m
+[ 22%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_corrected_pose.cpp.o[0m
+[ 22%] Built target accerion_visualization
+[ 23%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_diagnostics.cpp.o[0m
+[ 24%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_drift_correction.cpp.o[0m
+[ 25%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_line_follower_data.cpp.o[0m
+[ 26%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_signature_position_packet.cpp.o[0m
+[ 27%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/output_uncorrected_pose.cpp.o[0m
+[ 27%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/ram_rom_stats.cpp.o[0m
+[ 28%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/recording_list.cpp.o[0m
+[ 30%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/recordings.cpp.o[0m
+[ 31%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/remove_area.cpp.o[0m
+[ 32%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/remove_cluster.cpp.o[0m
+[ 33%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/sample_rate.cpp.o[0m
+[ 34%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/second_line_follower_output.cpp.o[0m
+[ 35%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/sensor_pose.cpp.o[0m
+[ 35%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/software_details.cpp.o[0m
+[ 36%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/software_version.cpp.o[0m
+[ 37%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/tcp_information.cpp.o[0m
+[ 38%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/received_command/udp_settings.cpp.o[0m
+[ 40%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/sensor.cpp.o[0m
+[ 41%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/sensor_manager.cpp.o[0m
+[ 42%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/serialization.cpp.o[0m
+[ 43%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/acknowledgement.cpp.o[0m
+[ 43%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/address.cpp.o[0m
+[ 44%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/area_file_header.cpp.o[0m
+[ 45%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/aruco_marker.cpp.o[0m
+[ 46%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/bool_uint16.cpp.o[0m
+[ 47%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/buffered_recovery.cpp.o[0m
+[ 48%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/calibration_file_request.cpp.o[0m
+[ 50%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/capture_frame_request.cpp.o[0m
+[ 51%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/corrected_pose.cpp.o[0m
+[ 51%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/date_time.cpp.o[0m
+[ 52%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/diagnostics.cpp.o[0m
+[ 53%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/drift_correction.cpp.o[0m
+[ 54%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/file_transfer.cpp.o[0m
+[ 55%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/file_transfer_task.cpp.o[0m
+[ 56%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/heartbeat.cpp.o[0m
+[ 57%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/input_pose.cpp.o[0m
+[ 58%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/ip_address.cpp.o[0m
+[ 60%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/legacy_file_packet.cpp.o[0m
+[ 60%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/line_follower_data.cpp.o[0m
+[ 61%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/plain_string.cpp.o[0m
+[ 62%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/plain_uint16.cpp.o[0m
+[ 63%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/plain_uint32.cpp.o[0m
+[ 64%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/pose.cpp.o[0m
+[ 65%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/ram_rom_stats.cpp.o[0m
+[ 66%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/sample_rate.cpp.o[0m
+[ 67%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/signature.cpp.o[0m
+[ 67%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/signature_position_packet.cpp.o[0m
+[ 68%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/software_details.cpp.o[0m
+[ 70%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/standard_deviation.cpp.o[0m
+[ 71%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/subset_operation.cpp.o[0m
+[ 72%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/tcp_information.cpp.o[0m
+[ 73%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/udp_information.cpp.o[0m
+[ 74%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/uint16_vector.cpp.o[0m
+[ 75%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/uncorrected_pose.cpp.o[0m
+[ 75%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/structs/version.cpp.o[0m
+[ 76%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/tcp_client.cpp.o[0m
+[ 77%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/udp_receiver.cpp.o[0m
+[ 78%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/udp_transmitter.cpp.o[0m
+[ 80%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/update_service.cpp.o[0m
+[ 81%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/update_service_manager.cpp.o[0m
+[ 82%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/utils/filesystem.cpp.o[0m
+[ 83%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/utils/profile_timer.cpp.o[0m
+[ 83%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/utils/reporting.cpp.o[0m
+[ 84%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/utils/sensor.cpp.o[0m
+[ 85%] [32mBuilding CXX object accerionsensorapi/CMakeFiles/AccerionSensorAPI.dir/source/AccerionSensorAPI/utils/time.cpp.o[0m
+[ 86%] [32m[1mLinking CXX static library libAccerionSensorAPI.a[0m
+[ 86%] Built target AccerionSensorAPI
+[35m[1mScanning dependencies of target accerion_driver[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionDriverROS.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/utils.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/main_driver.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionGetG2oServer.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionSendG2oServer.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionImportG2oServer.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionSearchLoopClosuresServer.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionSendMapServer.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionGetMapServer.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionSubsetServer.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionRetrieveLogsServer.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionGetRecordingsServer.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver/./include/accerion_driver/AccerionSendMapServer.h:11[m[K,
+                 from [01m[K/home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver/src/AccerionSendMapServer.cpp:1[m[K:
+[01m[K/home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver/src/AccerionSendMapServer.cpp:[m[K In member function ‘[01m[Kvoid AccerionSendMapServer::ExecuteCallback(const SendMapGoalConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_WARN(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver/src/AccerionSendMapServer.cpp:49:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+     [01;36m[KR[m[KOS_WARN(msg);
+     [01;36m[K^[m[K
+[ 98%] [32mBuilding CXX object CMakeFiles/accerion_driver.dir/src/AccerionUpdateSensorServer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/accerion_driver/lib/accerion_driver/accerion_driver[0m
+[100%] Built target accerion_driver

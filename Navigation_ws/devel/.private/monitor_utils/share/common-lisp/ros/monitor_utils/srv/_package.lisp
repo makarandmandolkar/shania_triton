@@ -1,0 +1,10 @@
+(cl:defpackage monitor_utils-srv
+  (:use )
+  (:export
+   "NODE_WATCHDOG_SERVICE"
+   "<NODE_WATCHDOG_SERVICE-REQUEST>"
+   "NODE_WATCHDOG_SERVICE-REQUEST"
+   "<NODE_WATCHDOG_SERVICE-RESPONSE>"
+   "NODE_WATCHDOG_SERVICE-RESPONSE"
+  ))
+

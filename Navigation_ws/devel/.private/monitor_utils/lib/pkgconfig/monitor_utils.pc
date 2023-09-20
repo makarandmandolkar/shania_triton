@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/devel/.private/monitor_utils
+
+Name: monitor_utils
+Description: Description of monitor_utils
+Version: 0.0.0
+Cflags: -I/home/makarand/Documents/Navigation_ws/devel/.private/monitor_utils/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy std_msgs message_runtime

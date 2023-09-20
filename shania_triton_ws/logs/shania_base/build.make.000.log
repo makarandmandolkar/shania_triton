@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target shania_base_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/shania_base_node.dir/src/hardware_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/shania_base_node.dir/src/shania_base.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/shania_base/lib/shania_base/shania_base_node[0m
+[100%] Built target shania_base_node

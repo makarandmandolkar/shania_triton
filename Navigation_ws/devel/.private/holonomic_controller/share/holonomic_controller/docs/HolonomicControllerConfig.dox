@@ -1,0 +1,22 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~robot_frame" : \b [str] Name of robot frame min: , default: base_link, max: 
+- \b "~dock_frame" : \b [str] Name of dock frame min: , default: dock_truth, max: 
+- \b "~dock_pose_topic" : \b [str] Topic of calculated dock pose min: , default: docking/dock_pose, max: 
+- \b "~dock_gazebo_pose_topic" : \b [str] Topic of gazebo truth dock pose min: , default: dock_pose_gazebo, max: 
+- \b "~use_calculated_pose" : \b [bool] Switch between gazebo truth pose or calculated pose min: False, default: True, max: True
+- \b "~goal_dist_tolerance" : \b [double] Max Goal Distance Error Tolerance (m) min: 0.001, default: 0.01, max: 1.0
+- \b "~goal_orientation_tolerance" : \b [double] Max Goal Orientation Error Tolerance (rad) min: 0.001, default: 0.01, max: 1.0
+- \b "~omega_max" : \b [double] Max Rotational Velocity min: 0.0, default: 0.3, max: 2.0
+- \b "~lin_vel_min" : \b [double] Min Translational Velocity min: 0.0, default: 0.0169, max: 1.0
+- \b "~lin_vel_max" : \b [double] Max Translational Velocity min: 0.0, default: 0.5, max: 1.0
+- \b "~kp_translate" : \b [double] Proportional Gain for Translation min: 0.0, default: 1.0, max: 100.0
+- \b "~ki_translate" : \b [double] Integral Gain for Translation min: 0.0, default: 0.1, max: 100.0
+- \b "~kd_translate" : \b [double] Derivative Gain for Translation min: 0.0, default: 1.0, max: 100.0
+- \b "~kp_rotate" : \b [double] Proportional Gain for Rotation min: 0.0, default: 1.0, max: 100.0
+- \b "~ki_rotate" : \b [double] Integral Gain for Rotation min: 0.0, default: 0.0, max: 100.0
+- \b "~kd_rotate" : \b [double] Derivative Gain for Rotation min: 0.0, default: 0.5, max: 100.0
+- \b "~control_frequency" : \b [double] Frequency of control min: 1.0, default: 10.0, max: 50.0
+

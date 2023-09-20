@@ -1,0 +1,3 @@
+[ 20%] Built target rosbag_utils_gencfg
+[ 60%] Built target rolling_rosbag
+[100%] Built target rolling_rosbag_node

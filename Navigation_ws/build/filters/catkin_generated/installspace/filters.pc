@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: filters
+Description: Description of filters
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs std_msgs

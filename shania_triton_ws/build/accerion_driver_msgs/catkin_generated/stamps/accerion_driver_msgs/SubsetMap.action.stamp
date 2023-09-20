@@ -1,0 +1,12 @@
+# goal
+string clusterIDs           # idxs of the clusters to be moved(e.g. 0-100,102)
+uint16 targetAreaID         # id of the targetArea, has to be unused/empty
+---
+# result
+bool done                   # sets the action to a finite state
+bool success                # bool that holds whether the request was succesful
+string message              # message containing information about the result
+uint16[] failedIDs          # ID's of the clusters that could not be found and/or copied
+---
+#feedback
+int32 progress              # message that contains information about the current progress

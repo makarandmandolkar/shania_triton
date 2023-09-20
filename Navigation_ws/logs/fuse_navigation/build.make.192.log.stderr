@@ -1,0 +1,130 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:323:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_pathfollowing_msgs::Path fuse_navigation::NodeMap::lookupPath[01;31m[K([m[Kconst std::vector<fuse_navigation::NodeId>& node_path,
+                                                                   [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:380:62:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<Segment> fuse_navigation::NodeMap::lookupSegments[01;31m[K([m[Kconst Node::ConstPtr& prev_node, const Node::ConstPtr& new_node, const fuse_navigation::NodeId& destination_node_id) {
+                                                              [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:445:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<Segment> fuse_navigation::NodeMap::lookupNewSegmentsTo[01;31m[K([m[Kconst fuse_navigation::NodeId& node_id, const fuse_navigation::NodeId& destination_node_id) {
+                                                                   [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:458:81:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::ConstPtr fuse_navigation::NodeMap::getRandomConnectedNode[01;31m[K([m[Kconst Node::ConstPtr& node) {
+                                                                                 [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:474:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::addNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id) {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:486:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id) const {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:491:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id, const bool create_if_not_found) {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:504:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getConnectedNode[01;31m[K([m[Kconst fuse_navigation::Node::ConstPtr& current_node, const fuse_navigation::NodeId& connected_node_id) {
+                                                                      [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:514:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::NodeIdPair fuse_navigation::NodeMap::parseNodeIdPair[01;31m[K([m[Kconst std::string& node_id_pair_str) {
+                                                                      [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:525:46:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ size_t fuse_navigation::NodeMap::getNodeIndex[01;31m[K([m[Kconst fuse_navigation::NodeId& node_id) {
+                                              [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:534:60:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::NodeId fuse_navigation::NodeMap::getNodeId[01;31m[K([m[Ksize_t node_index) {
+                                                            [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:543:74:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<fuse_navigation::NodeId> fuse_navigation::NodeMap::getNodeIds[01;31m[K([m[Kconst std::vector<size_t>& node_indices) {
+                                                                          [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:551:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::setFrame[01;31m[K([m[Kconst std::string& frame) {
+                                        [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:559:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::string fuse_navigation::NodeMap::getFrame[01;31m[K([m[K) {
+                                               [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:563:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::initializeCursor[01;31m[K([m[Kconst fuse_navigation::MapLocation& location, bool start_path_at_origin){
+                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:573:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::applyTransformTo[01;31m[K([m[Kconst std::string& frame, const Eigen::Isometry3d& transform) {
+                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:588:64:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::ZoneHashMap fuse_navigation::NodeMap::getZones[01;31m[K([m[K) const {
+                                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:590:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:323:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_pathfollowing_msgs::Path fuse_navigation::NodeMap::lookupPath[01;31m[K([m[Kconst std::vector<fuse_navigation::NodeId>& node_path,
+                                                                   [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:380:62:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<Segment> fuse_navigation::NodeMap::lookupSegments[01;31m[K([m[Kconst Node::ConstPtr& prev_node, const Node::ConstPtr& new_node, const fuse_navigation::NodeId& destination_node_id) {
+                                                              [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:445:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<Segment> fuse_navigation::NodeMap::lookupNewSegmentsTo[01;31m[K([m[Kconst fuse_navigation::NodeId& node_id, const fuse_navigation::NodeId& destination_node_id) {
+                                                                   [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:458:81:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::ConstPtr fuse_navigation::NodeMap::getRandomConnectedNode[01;31m[K([m[Kconst Node::ConstPtr& node) {
+                                                                                 [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:474:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::addNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id) {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:486:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id) const {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:491:61:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getNode[01;31m[K([m[Kconst fuse_navigation::NodeId& id, const bool create_if_not_found) {
+                                                             [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:504:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::Node::Ptr fuse_navigation::NodeMap::getConnectedNode[01;31m[K([m[Kconst fuse_navigation::Node::ConstPtr& current_node, const fuse_navigation::NodeId& connected_node_id) {
+                                                                      [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:514:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::NodeIdPair fuse_navigation::NodeMap::parseNodeIdPair[01;31m[K([m[Kconst std::string& node_id_pair_str) {
+                                                                      [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:525:46:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ size_t fuse_navigation::NodeMap::getNodeIndex[01;31m[K([m[Kconst fuse_navigation::NodeId& node_id) {
+                                              [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:534:60:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::NodeId fuse_navigation::NodeMap::getNodeId[01;31m[K([m[Ksize_t node_index) {
+                                                            [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:543:74:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::vector<fuse_navigation::NodeId> fuse_navigation::NodeMap::getNodeIds[01;31m[K([m[Kconst std::vector<size_t>& node_indices) {
+                                                                          [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:551:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::setFrame[01;31m[K([m[Kconst std::string& frame) {
+                                        [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:559:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ std::string fuse_navigation::NodeMap::getFrame[01;31m[K([m[K) {
+                                               [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:563:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::initializeCursor[01;31m[K([m[Kconst fuse_navigation::MapLocation& location, bool start_path_at_origin){
+                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:573:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ void fuse_navigation::NodeMap::applyTransformTo[01;31m[K([m[Kconst std::string& frame, const Eigen::Isometry3d& transform) {
+                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:588:64:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ fuse_navigation::ZoneHashMap fuse_navigation::NodeMap::getZones[01;31m[K([m[K) const {
+                                                                [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:590:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make: *** [all] Error 2

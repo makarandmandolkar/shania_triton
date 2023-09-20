@@ -1,0 +1,5 @@
+shania/shania_description
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/cmake.lock /home/makarand/Documents/shania_triton_ws/devel/./cmake.lock
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/lib/pkgconfig/shania_description.pc /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/shania_description.pc
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/share/shania_description/cmake/shania_descriptionConfig-version.cmake /home/makarand/Documents/shania_triton_ws/devel/share/shania_description/cmake/shania_descriptionConfig-version.cmake
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/share/shania_description/cmake/shania_descriptionConfig.cmake /home/makarand/Documents/shania_triton_ws/devel/share/shania_description/cmake/shania_descriptionConfig.cmake

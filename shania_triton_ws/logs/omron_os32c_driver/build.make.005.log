@@ -1,0 +1,6 @@
+[ 33%] Built target omron_os32c
+[ 66%] Built target scanner_node
+[35m[1mScanning dependencies of target omron_os32c_node[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/omron_os32c_node.dir/src/os32c_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node[0m
+[100%] Built target omron_os32c_node

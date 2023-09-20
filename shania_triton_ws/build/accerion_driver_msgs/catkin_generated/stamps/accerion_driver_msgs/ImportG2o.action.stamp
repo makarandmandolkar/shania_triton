@@ -1,0 +1,9 @@
+# goal
+---
+# result
+bool done                   # sets the action to a finite state
+bool success                # boolean that holds whether the request has been made
+string message              # message that contains information about the request(success/failure etc.)
+---
+# feedback
+int32 progress              # message that contains information about the current progress

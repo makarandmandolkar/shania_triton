@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/accerion_pose_manager/share/accerion_pose_manager/cmake/accerion_pose_managerConfig-version.cmake

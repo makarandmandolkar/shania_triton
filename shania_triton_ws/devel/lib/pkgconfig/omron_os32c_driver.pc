@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/omron_os32c_driver/lib/pkgconfig/omron_os32c_driver.pc

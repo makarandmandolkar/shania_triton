@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/devel/.private/rt7520_description
+
+Name: rt7520_description
+Description: Description of rt7520_description
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

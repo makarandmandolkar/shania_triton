@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: ar_marker_to_file
+Description: Description of ar_marker_to_file
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs tf_conversions ar_track_alvar_msgs tf_tools roslib std_msgs

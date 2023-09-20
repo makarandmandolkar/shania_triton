@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/lib/pkgconfig/shania_description.pc

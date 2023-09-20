@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/install
+
+Name: raw_kinematics
+Description: Description of raw_kinematics
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lraw_kinematics
+Requires: 

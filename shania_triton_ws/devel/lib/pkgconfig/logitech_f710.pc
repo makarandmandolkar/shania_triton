@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/logitech_f710/lib/pkgconfig/logitech_f710.pc

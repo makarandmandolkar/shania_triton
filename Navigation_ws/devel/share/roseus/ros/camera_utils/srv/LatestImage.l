@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/camera_utils/share/roseus/ros/camera_utils/srv/LatestImage.l

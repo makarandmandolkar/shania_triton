@@ -1,0 +1,34 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:179:69:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst json& {aka const nlohmann::basic_json<>&}[m[K’ from expression of type ‘[01m[Knlohmann::basic_json<>::iteration_proxy<nlohmann::detail::iter_impl<nlohmann::basic_json<> > > {aka nlohmann::detail::iteration_proxy<nlohmann::detail::iter_impl<nlohmann::basic_json<> > >}[m[K’
+       const std::string& loc_x = getJsonElement([01;31m[Klocation_value.items()[m[K,"x");
+                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:37:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kjson getJsonElement(const json&, const string&)[m[K’
+ json [01;36m[KgetJsonElement[m[K(const json& j, const std::string& key) {
+      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:179:69:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst json& {aka const nlohmann::basic_json<>&}[m[K’ from expression of type ‘[01m[Knlohmann::basic_json<>::iteration_proxy<nlohmann::detail::iter_impl<nlohmann::basic_json<> > > {aka nlohmann::detail::iteration_proxy<nlohmann::detail::iter_impl<nlohmann::basic_json<> > >}[m[K’
+       const std::string& loc_x = getJsonElement([01;31m[Klocation_value.items()[m[K,"x");
+                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:37:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kjson getJsonElement(const json&, const string&)[m[K’
+ json [01;36m[KgetJsonElement[m[K(const json& j, const std::string& key) {
+      [01;36m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make: *** [all] Error 2

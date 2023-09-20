@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: rosbag_utils
+Description: Description of rosbag_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrolling_rosbag
+Requires: rospy rosbag rostopic std_msgs dynamic_reconfigure

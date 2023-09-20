@@ -1,0 +1,65 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/makarand/Documents/shania_triton_ws/devel/.private/accerion_driver_msgs
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/makarand/Documents/shania_triton_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/makarand/Documents/shania_triton_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/makarand/Documents/shania_triton_ws/build/accerion_driver_msgs/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Generating .msg files for action accerion_driver_msgs/GetG2o /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/GetG2o.action
+Generating for action GetG2o
+[36m--[0m Generating .msg files for action accerion_driver_msgs/SendG2o /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/SendG2o.action
+Generating for action SendG2o
+[36m--[0m Generating .msg files for action accerion_driver_msgs/ImportG2o /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/ImportG2o.action
+Generating for action ImportG2o
+[36m--[0m Generating .msg files for action accerion_driver_msgs/SearchLoopClosures /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/SearchLoopClosures.action
+Generating for action SearchLoopClosures
+[36m--[0m Generating .msg files for action accerion_driver_msgs/GetMap /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/GetMap.action
+Generating for action GetMap
+[36m--[0m Generating .msg files for action accerion_driver_msgs/GetRecordings /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/GetRecordings.action
+Generating for action GetRecordings
+[36m--[0m Generating .msg files for action accerion_driver_msgs/SendMap /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/SendMap.action
+Generating for action SendMap
+[36m--[0m Generating .msg files for action accerion_driver_msgs/SubsetMap /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/SubsetMap.action
+Generating for action SubsetMap
+[36m--[0m Generating .msg files for action accerion_driver_msgs/RetrieveLogs /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/RetrieveLogs.action
+Generating for action RetrieveLogs
+[36m--[0m Generating .msg files for action accerion_driver_msgs/UpdateSensor /home/makarand/Documents/shania_triton_ws/src/accerion-ros-node/accerion_driver_msgs/action/UpdateSensor.action
+Generating for action UpdateSensor
+[36m--[0m accerion_driver_msgs: 74 messages, 21 services
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/makarand/Documents/shania_triton_ws/build/accerion_driver_msgs

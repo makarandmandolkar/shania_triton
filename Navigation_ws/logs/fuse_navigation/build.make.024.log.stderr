@@ -1,0 +1,33 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   json_filename = [01;31m[K/[m[Khome/makarand/Documents/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                   [01;31m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:20:[m[K [01;31m[Kerror: [m[K‘[01m[Khome[m[K’ was not declared in this scope
+   json_filename = /[01;31m[Khome[m[K/makarand/Documents/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                    [01;31m[K^~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktime[m[K’
+   json_filename = /[01;36m[Khome[m[K/makarand/Documents/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                    [01;36m[K^~~~[m[K
+                    [32m[Ktime[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakarand[m[K’ was not declared in this scope
+   json_filename = /home/[01;31m[Kmakarand[m[K/Documents/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksrand[m[K’
+   json_filename = /home/[01;36m[Kmakarand[m[K/Documents/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                         [01;36m[K^~~~~~~~[m[K
+                         [32m[Ksrand[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:34:[m[K [01;31m[Kerror: [m[K‘[01m[KDocuments[m[K’ was not declared in this scope
+   json_filename = /home/makarand/[01;31m[KDocuments[m[K/Bastian_docs/JSON_graphs/testMapWithCurvesData.json;
+                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:44:[m[K [01;31m[Kerror: [m[K‘[01m[KBastian_docs[m[K’ was not declared in this scope
+   json_filename = /home/makarand/Documents/[01;31m[KBastian_docs[m[K/JSON_graphs/testMapWithCurvesData.json;
+                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:57:[m[K [01;31m[Kerror: [m[K‘[01m[KJSON_graphs[m[K’ was not declared in this scope
+   json_filename = /home/makarand/Documents/Bastian_docs/[01;31m[KJSON_graphs[m[K/testMapWithCurvesData.json;
+                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/node/node_map_node.cpp:233:69:[m[K [01;31m[Kerror: [m[K‘[01m[KtestMapWithCurvesData[m[K’ was not declared in this scope
+   json_filename = /home/makarand/Documents/Bastian_docs/JSON_graphs/[01;31m[KtestMapWithCurvesData[m[K.json;
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/node_map_node.dir/node/node_map_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make: *** [all] Error 2

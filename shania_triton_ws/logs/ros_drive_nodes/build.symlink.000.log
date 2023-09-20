@@ -1,0 +1,9 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/ros_drive_nodes.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/uni_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/mec_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/tri_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/bbx_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/diff_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/ros_drive_nodes/shania_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/ros_drive_nodes/cmake/ros_drive_nodesConfig.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/ros_drive_nodes/cmake/ros_drive_nodesConfig-version.cmake

@@ -1,0 +1,7 @@
+set(database_utilities_SETUP_PY_SETUP_MODULE "distutils.core")
+set(database_utilities_SETUP_PY_VERSION "1.0.0")
+set(database_utilities_SETUP_PY_SCRIPTS "")
+set(database_utilities_SETUP_PY_PACKAGES "json_database_manager")
+set(database_utilities_SETUP_PY_PACKAGE_DIRS "src/json_database_manager")
+set(database_utilities_SETUP_PY_MODULES "")
+set(database_utilities_SETUP_PY_MODULE_DIRS "")

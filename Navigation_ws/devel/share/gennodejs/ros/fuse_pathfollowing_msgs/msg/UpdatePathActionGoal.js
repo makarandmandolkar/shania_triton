@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/fuse_pathfollowing_msgs/share/gennodejs/ros/fuse_pathfollowing_msgs/msg/UpdatePathActionGoal.js

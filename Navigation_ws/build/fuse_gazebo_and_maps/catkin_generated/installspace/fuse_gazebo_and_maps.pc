@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: fuse_gazebo_and_maps
+Description: Description of fuse_gazebo_and_maps
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

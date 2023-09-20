@@ -1,0 +1,15 @@
+## Action used to command the vehicle to update the path
+
+# Goal
+bool append # If true, append this path to the current one; if false, replace current path with this one
+Path path 
+---
+# Result
+bool finished_path
+---
+# Feedback
+string status
+string[] completed_nodes # List of the completed node ids - excludes first node since it is never "reached" by the path follower
+float64 percent_complete # Percent of the full path distance that has been traversed (0-100)
+float64 distance_to_end  # Distance in meters (along path) to the end of the path
+float64 distance_to_next_node # Distance in meters (along path) to the next node

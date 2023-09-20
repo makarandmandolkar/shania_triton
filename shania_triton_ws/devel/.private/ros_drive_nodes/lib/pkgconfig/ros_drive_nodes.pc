@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/ros_drive_nodes
+
+Name: ros_drive_nodes
+Description: Description of ros_drive_nodes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: raw_kinematics

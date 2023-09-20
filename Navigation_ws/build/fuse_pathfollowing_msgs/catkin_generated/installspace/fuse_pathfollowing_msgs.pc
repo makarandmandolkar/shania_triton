@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: fuse_pathfollowing_msgs
+Description: Description of fuse_pathfollowing_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs std_msgs nav_msgs

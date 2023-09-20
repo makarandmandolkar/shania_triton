@@ -1,0 +1,13 @@
+# goal
+string mode                 # list(to retrieve list of recordings), download(to retrieve one or more recordings), delete(delete one or more recordings)
+uint8[]  recordingIndexes   # indexes of the recordings to be retrieved
+string path                 # Path to store the recordings
+---
+# result
+string[] recordings 	    # names of the recordings on the sensor
+bool done                   # sets the action to a finite state
+bool success                # boolean that holds whether the request has been made
+string message              # message that contains information about the request(success/failure etc.)
+---
+# feedback
+int32 progress              # message that contains information about the current progress

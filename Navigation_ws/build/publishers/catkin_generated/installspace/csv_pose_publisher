@@ -1,0 +1,256 @@
+#!/usr/bin/env python2
+import rospy
+import csv
+import os
+import yaml
+
+import numpy as np
+
+from geometry_msgs.msg import PoseStamped
+import param_utils.get_param as pu
+import tf
+
+
+class AbstractCsvReader(object):
+    """Abstract iterable object for returning rows from a CSV file.
+
+    This allows the file to be read completely into memory or streamed one row
+    at a time.
+
+    Args:
+        filepath (str): Path to the CSV file.
+        stream (bool): Whether or not to load the stream rows one at a time
+            from the file. Defaults to False
+
+    """
+    def __init__(self, filepath, stream=False):
+        self.stream = stream
+
+        if self.stream:
+            # keep persistent file descriptor open and read by line
+            self.file = open(filepath, 'r')
+            self.csv_reader = csv.DictReader(self.file)
+        else:
+            self.i = 0
+
+            # read file into memory
+            with open(filepath, 'r') as readfile:
+                self.csv_reader = csv.DictReader(readfile)
+                self.rows = [row for row in self.csv_reader]
+
+    def reset(self):
+        if self.stream:
+            self.file.seek(0)
+            _ = self.csv_reader.next()  # read in header row
+        else:
+            self.i = 0
+
+    def __iter__(self):
+        return self
+
+    def next(self):
+        if self.stream:
+            return self.csv_reader.next()
+        elif self.i >= len(self.rows):
+            rospy.logdebug("Reading row %d/%d" % (self.i + 1, len(self.rows)))
+            raise StopIteration
+        else:
+            row = self.rows[self.i]
+            self.i += 1
+            return row
+
+    def close(self):
+        if self.stream:
+            self.file.close()
+
+
+class CsvPublisher(object):
+    def __init__(self):
+        rate = pu.get_param("~publish_rate", 50)
+        cfg_file = pu.get_param("~config_filepath")
+        csv_dir = pu.get_param("~csv_directory". "").rstrip('/')
+        with open(cfg_file, "r") as readfile:
+            cfg = yaml.load(readfile)
+
+        self.readers = {}
+        for src in cfg:
+            path = csv_dir + '/' + src['csv_filename']
+            reader = {}
+            reader["csv"] = AbstractCsvReader(path, stream=src["stream"])
+            reader["future_row"] = None
+            reader["past_row"] = None
+            reader["pub"] = rospy.Publisher(src["topic"], PoseStamped, queue_size=10)
+            reader.update(self.initialize_units(src))
+            reader["frame_id"] = src["frame_id"] if "frame_id" in src.keys() else ""
+
+            # hash readers by topic
+            self.readers[src["topic"]] = reader
+
+        self.initialize_fields()
+
+        # initialize time
+        self.start = rospy.Time.now()
+        rospy.on_shutdown(self.close)
+        rospy.Timer(rospy.Duration(1.0 / rate), self.publish_update)
+
+    def initialize_units(self, src):
+        try:
+            du = src["distance_units"]
+        except KeyError:
+            du = "meters"
+
+        try:
+            au = src["angle_units"]
+        except KeyError:
+            au = "radians"
+
+        reader_units = {}
+
+        if du == "inches":
+            reader_units["df"] = 0.0254
+        elif du == "meters":
+            reader_units["df"] = 1.0
+        else:
+            rospy.logwarn("(%s) Distance unit '%s' is not supported. Defaulting to meter."
+                % (rospy.get_name(), du))
+            reader_units["df"] = 1.0
+
+        if au == "degrees":
+            reader_units["af"] = np.deg2rad(1)
+        elif au == "radians":
+            reader_units["af"] = 1.0
+        else:
+            rospy.logwarn("(%s) Angle unit '%s' is not supported. Defaulting to radian."
+                % (rospy.get_name(), au))
+            reader_units["af"] = 1.0
+
+        return reader_units
+
+    def initialize_fields(self):
+
+        self.pos_fields = [
+            "position.x",
+            "position.y",
+            "position.z",
+        ]
+        self.rpy_fields = [
+            "orientation.roll",
+            "orientation.pitch",
+            "orientation.yaw",
+        ]
+
+    def publish_update(self, event):
+        time_offset = event.current_real - self.start
+        rospy.logdebug("(%s) Time offset is %.2f" % (rospy.get_name(), time_offset.to_sec()))
+
+        for (topic, reader) in self.readers.iteritems():
+            # read records until index time surpasses time offset
+            while (reader["future_row"] is None) or (float(reader["future_row"]["time"]) < time_offset.to_sec()):
+                reader["past_row"] = reader["future_row"]
+                try:
+                    reader["future_row"] = reader["csv"].next()
+                    rospy.logdebug("(%s) Row time is %.2f" % (rospy.get_name(), float(reader["future_row"]["time"])))
+                except StopIteration:
+                    self.reset()
+                    return
+
+            if (reader["future_row"] is None) or (reader["past_row"] is None):
+                return
+
+            rospy.logdebug("(%s) Interpolating pose for topic %s"
+                % (rospy.get_name(), topic))
+
+            # linear interpolation of pose
+            t1 = float(reader["past_row"]["time"])
+            t2 = float(reader["future_row"]["time"])
+
+            y1 = np.array([float(reader["past_row"][k]) for k in self.pos_fields])
+            y2 = np.array([float(reader["future_row"][k]) for k in self.pos_fields])
+            if (y1 == y2).all():
+                pos = y1
+            else:
+                pos = linear_interpolate(t1, y1, t2, y2, time_offset.to_sec())
+
+            # apply angle factor to convert from source units to radians
+            rpy1 = [float(reader["past_row"][k]) * reader["af"] for k in self.rpy_fields]
+            rpy2 = [float(reader["future_row"][k]) * reader["af"] for k in self.rpy_fields]
+
+            q1 = tf.transformations.quaternion_from_euler(*rpy1, axes='sxyz')
+            q2 = tf.transformations.quaternion_from_euler(*rpy2, axes='sxyz')
+
+            if (q1 == q2).all():
+                quat = q1
+            else:
+                quat = slerp(t1, q1, t2, q2, time_offset.to_sec())
+
+            # apply distance factor to convert from source unit to meters
+            pos *= reader["df"]
+
+            pose = PoseStamped()
+            pose.header.stamp = rospy.Time.now()
+            pose.header.frame_id = reader["frame_id"]
+
+            pose.pose.position.x = pos[0]
+            pose.pose.position.y = pos[1]
+            pose.pose.position.z = pos[2]
+
+            pose.pose.orientation.x = quat[0]
+            pose.pose.orientation.y = quat[1]
+            pose.pose.orientation.z = quat[2]
+            pose.pose.orientation.w = quat[3]
+
+            reader["pub"].publish(pose)
+
+    def reset(self):
+        for reader in self.readers.itervalues():
+            reader["future_row"] = None
+            reader["past_row"] = None
+            reader["csv"].reset()
+
+        self.start = rospy.Time.now()
+
+    def close(self):
+        for reader in self.readers.itervalues():
+            reader["csv"].close()
+
+
+def linear_interpolate(x1, y1, x2, y2, x):
+    """Linear prediction of y3 (interpolation or extrapolation)
+
+    Note: this function takes advantage of python duck typing, all inputs can
+        be scalars or np.ndarrays
+    """
+    m = (y2 - y1) / (x2 - x1)
+    y = y1 + m * (x - x1)
+    np.set_printoptions(precision=3, suppress=True)
+    rospy.logdebug("(%s) LERP at %.2f along (%.2f, %s) to (%.2f, %s) yields (%.2f, %s)"
+        % (rospy.get_name(), x, x1, y1, x2, y2, x, y))
+    return y
+
+
+def slerp(x1, q1, x2, q2, x):
+    """Spherical linear interpolation
+    see https://en.wikipedia.org/wiki/Slerp
+    """
+    # unfortunately, this implementation of SLERP does not extrapolate
+    assert (x1 < x <= x2)
+
+    # calculate interpolation parameter
+    t = (x - x1) / (x2 - x1)
+
+    # SLERP it
+    omega = np.arccos(np.dot(q1 / np.linalg.norm(q1), q2 / np.linalg.norm(q2)))
+    so = np.sin(omega)
+    quat = np.sin((1.0 - t) * omega) / so * q1 + np.sin(t * omega) / so * q2
+
+    np.set_printoptions(precision=3, suppress=True)
+    rospy.logdebug("(%s) SLERP at %.2f along (%.2f, %s) to (%.2f, %s) yields (%.2f, %s)"
+        % (rospy.get_name(), x, x1, q1, x2, q2, x, quat))
+
+    return quat
+
+
+if __name__ == "__main__":
+    rospy.init_node("csv_pose_publisher", log_level=rospy.INFO)
+    cp = CsvPublisher()
+    rospy.spin()

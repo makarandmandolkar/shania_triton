@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/accerion_driver
+
+Name: accerion_driver
+Description: Description of accerion_driver
+Version: 6.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

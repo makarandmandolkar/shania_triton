@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~publish_hz" : \b [int] Publish Rate in Hz min: 0, default: 5, max: 100
+- \b "~linear_x" : \b [double] Linear.X min: -5.0, default: 0.0, max: 5.0
+- \b "~linear_y" : \b [double] Linear.Y min: -5.0, default: 0.0, max: 5.0
+- \b "~linear_z" : \b [double] Linear.Z min: -5.0, default: 0.0, max: 5.0
+- \b "~angular_x" : \b [double] Angular.X min: -5.0, default: 0.0, max: 5.0
+- \b "~angular_y" : \b [double] Angular.Y min: -5.0, default: 0.0, max: 5.0
+- \b "~angular_z" : \b [double] Angular.Z min: -5.0, default: 0.0, max: 5.0
+

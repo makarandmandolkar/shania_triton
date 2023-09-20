@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rosbag_utils/lib/python2.7/dist-packages/bag_catcher_module/__init__.py

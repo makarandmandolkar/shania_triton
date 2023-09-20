@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~is_recording" : \b [bool] A Boolean read-only parameter indicating the state of a recording. min: False, default: False, max: True
+- \b "~end_recording" : \b [bool] A Boolean (button-like) parameter that allows a user to prematurly end a recording. min: False, default: False, max: True
+- \b "~bag_prefix" : \b [str] Prefix to prepend to each Rosbag. min: , default: , max: 
+- \b "~recording_directory" : \b [str] Directory where to save each Rosbag. min: , default: ~/data, max: 
+- \b "~trigger_topic" : \b [str] Topic to use as a trigger to begin recording a Rosbag. min: , default: trigger, max: 
+- \b "~cutoff_topic" : \b [str] Topic to indicate when to end a Rosbag. min: , default: , max: 
+

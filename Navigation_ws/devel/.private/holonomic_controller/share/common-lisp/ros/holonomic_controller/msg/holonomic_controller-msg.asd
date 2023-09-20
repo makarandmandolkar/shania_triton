@@ -1,0 +1,38 @@
+
+(cl:in-package :asdf)
+
+(defsystem "holonomic_controller-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "DockingAction" :depends-on ("_package_DockingAction"))
+    (:file "_package_DockingAction" :depends-on ("_package"))
+    (:file "DockingActionFeedback" :depends-on ("_package_DockingActionFeedback"))
+    (:file "_package_DockingActionFeedback" :depends-on ("_package"))
+    (:file "DockingActionGoal" :depends-on ("_package_DockingActionGoal"))
+    (:file "_package_DockingActionGoal" :depends-on ("_package"))
+    (:file "DockingActionResult" :depends-on ("_package_DockingActionResult"))
+    (:file "_package_DockingActionResult" :depends-on ("_package"))
+    (:file "DockingFeedback" :depends-on ("_package_DockingFeedback"))
+    (:file "_package_DockingFeedback" :depends-on ("_package"))
+    (:file "DockingGoal" :depends-on ("_package_DockingGoal"))
+    (:file "_package_DockingGoal" :depends-on ("_package"))
+    (:file "DockingResult" :depends-on ("_package_DockingResult"))
+    (:file "_package_DockingResult" :depends-on ("_package"))
+    (:file "approach_goalAction" :depends-on ("_package_approach_goalAction"))
+    (:file "_package_approach_goalAction" :depends-on ("_package"))
+    (:file "approach_goalActionFeedback" :depends-on ("_package_approach_goalActionFeedback"))
+    (:file "_package_approach_goalActionFeedback" :depends-on ("_package"))
+    (:file "approach_goalActionGoal" :depends-on ("_package_approach_goalActionGoal"))
+    (:file "_package_approach_goalActionGoal" :depends-on ("_package"))
+    (:file "approach_goalActionResult" :depends-on ("_package_approach_goalActionResult"))
+    (:file "_package_approach_goalActionResult" :depends-on ("_package"))
+    (:file "approach_goalFeedback" :depends-on ("_package_approach_goalFeedback"))
+    (:file "_package_approach_goalFeedback" :depends-on ("_package"))
+    (:file "approach_goalGoal" :depends-on ("_package_approach_goalGoal"))
+    (:file "_package_approach_goalGoal" :depends-on ("_package"))
+    (:file "approach_goalResult" :depends-on ("_package_approach_goalResult"))
+    (:file "_package_approach_goalResult" :depends-on ("_package"))
+  ))

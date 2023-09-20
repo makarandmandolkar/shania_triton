@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/devel/.private/move_base_utilities
+
+Name: move_base_utilities
+Description: Description of move_base_utilities
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: std_msgs

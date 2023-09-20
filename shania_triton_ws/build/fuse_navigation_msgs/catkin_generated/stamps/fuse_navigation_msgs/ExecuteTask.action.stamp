@@ -1,0 +1,14 @@
+## Action used to send a task/mission for the agent to execute
+
+# Goal
+string task_id
+string agent_id
+TaskAction[] action_plan
+---
+# Result
+bool finished_mission
+---
+# Feedback
+string status # For general status messages
+string task_state
+int32 action_index

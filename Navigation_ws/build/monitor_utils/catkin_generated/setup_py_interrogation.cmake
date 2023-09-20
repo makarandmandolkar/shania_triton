@@ -1,0 +1,7 @@
+set(monitor_utils_SETUP_PY_SETUP_MODULE "distutils.core")
+set(monitor_utils_SETUP_PY_VERSION "0.0.0")
+set(monitor_utils_SETUP_PY_SCRIPTS "scripts/motion_monitor")
+set(monitor_utils_SETUP_PY_PACKAGES "monitor_utils;motion_monitor_module")
+set(monitor_utils_SETUP_PY_PACKAGE_DIRS "src/monitor_utils;src/motion_monitor_module")
+set(monitor_utils_SETUP_PY_MODULES "")
+set(monitor_utils_SETUP_PY_MODULE_DIRS "")

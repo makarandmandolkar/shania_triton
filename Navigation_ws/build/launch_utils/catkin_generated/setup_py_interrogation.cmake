@@ -1,0 +1,7 @@
+set(launch_utils_SETUP_PY_SETUP_MODULE "distutils.core")
+set(launch_utils_SETUP_PY_VERSION "0.0.0")
+set(launch_utils_SETUP_PY_SCRIPTS "")
+set(launch_utils_SETUP_PY_PACKAGES "launch_utils")
+set(launch_utils_SETUP_PY_PACKAGE_DIRS "src/launch_utils")
+set(launch_utils_SETUP_PY_MODULES "")
+set(launch_utils_SETUP_PY_MODULE_DIRS "")

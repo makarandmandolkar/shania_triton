@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/drive_examples
+
+Name: drive_examples
+Description: Description of drive_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

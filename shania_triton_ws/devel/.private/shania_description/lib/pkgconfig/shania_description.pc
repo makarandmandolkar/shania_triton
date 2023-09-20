@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description
+
+Name: shania_description
+Description: Description of shania_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

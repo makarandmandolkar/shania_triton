@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="rosbag_utils" pkg="rosbag_utils" type="rosbag_utils">
+  <param name="is_recording" type="bool" value="False" />
+  <param name="end_recording" type="bool" value="False" />
+  <param name="bag_prefix" type="str" value="" />
+  <param name="recording_directory" type="str" value="~/data" />
+  <param name="trigger_topic" type="str" value="trigger" />
+  <param name="cutoff_topic" type="str" value="" />
+</node>
+\endverbatim
+

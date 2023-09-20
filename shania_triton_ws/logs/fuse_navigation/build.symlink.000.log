@@ -1,0 +1,12 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libfibonacci_bt_action_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libhonk_bt_action_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libis_in_zone_bt_condition_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libfollow_path_bt_action_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libis_resource_available_bt_condition_nodes.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libis_first_action_of_same_type_bt_condition_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libis_previous_action_complete_bt_condition_node.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/fuse_navigation.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/fuse_navigation/behavior_manager
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/fuse_navigation/node_map_node
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/fuse_navigation/cmake/fuse_navigationConfig.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/fuse_navigation/cmake/fuse_navigationConfig-version.cmake

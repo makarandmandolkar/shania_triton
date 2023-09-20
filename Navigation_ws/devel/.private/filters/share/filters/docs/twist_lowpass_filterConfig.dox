@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~lateral_accel_limit" : \b [double] Lateral Acceleration Limit min: 0.0, default: 1.0, max: 5.0
+- \b "~lowpass_gain_linear_x" : \b [double] Linear X lowpass filter Gain min: 0.0, default: 0.8, max: 1.0
+- \b "~lowpass_gain_angular_z" : \b [double] Angular Z lowpass filter Gain min: 0.0, default: 0.8, max: 1.0
+

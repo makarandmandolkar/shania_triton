@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/devel/.private/camera_utils
+
+Name: camera_utils
+Description: Description of camera_utils
+Version: 0.0.0
+Cflags: -I/home/makarand/Documents/Navigation_ws/devel/.private/camera_utils/include
+Libs: -L${prefix}/lib 
+Requires: 

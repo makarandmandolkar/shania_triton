@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/database_utilities/lib/pkgconfig/database_utilities.pc

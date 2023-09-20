@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libroboteq_minican.so -o /home/makarand/Documents/shania_triton_ws/devel/.private/roboteq_minican/lib/libroboteq_minican.so CMakeFiles/roboteq_minican.dir/src/roboteq_minican.cpp.o 

@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/devel/.private/holonomic_controller
+
+Name: holonomic_controller
+Description: Description of holonomic_controller
+Version: 0.1.0
+Cflags: -I/home/makarand/Documents/Navigation_ws/devel/.private/holonomic_controller/include -I/home/makarand/Documents/Navigation_ws/src/holonomic_controller/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure roscpp tf_conversions nav_msgs geometry_msgs actionlib_msgs

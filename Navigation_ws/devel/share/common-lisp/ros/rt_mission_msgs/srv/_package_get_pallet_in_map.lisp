@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/share/common-lisp/ros/rt_mission_msgs/srv/_package_get_pallet_in_map.lisp

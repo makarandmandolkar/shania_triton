@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/install
+
+Name: roboteq_minican
+Description: Description of roboteq_minican
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lroboteq_minican
+Requires: 

@@ -1,0 +1,2 @@
+set(rt_carriage_controller_msgs_MESSAGE_FILES "msg/rt_carriage_controllerAction.msg;msg/rt_carriage_controllerActionGoal.msg;msg/rt_carriage_controllerActionResult.msg;msg/rt_carriage_controllerActionFeedback.msg;msg/rt_carriage_controllerGoal.msg;msg/rt_carriage_controllerResult.msg;msg/rt_carriage_controllerFeedback.msg;msg/carriage_sensor_diagnostics.msg")
+set(rt_carriage_controller_msgs_SERVICE_FILES "srv/pallet_fork_position.srv")

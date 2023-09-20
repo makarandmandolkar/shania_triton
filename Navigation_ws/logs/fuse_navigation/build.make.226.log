@@ -1,0 +1,135 @@
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target holonomic_controller_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target holonomic_controller_generate_messages_lisp
+[  0%] Built target holonomic_controller_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target rt_carriage_controller_msgs_generate_messages_py
+[  0%] Built target holonomic_controller_generate_messages_py
+[  0%] Built target holonomic_controller_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target fuse_pathfollowing_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target rt_carriage_controller_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target fuse_navigation_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rt_carriage_controller_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target fuse_pathfollowing_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target fuse_navigation_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target rt_carriage_controller_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target fuse_pathfollowing_msgs_generate_messages_nodejs
+[  0%] Built target fuse_navigation_msgs_generate_messages_eus
+[  0%] Built target rt_carriage_controller_msgs_generate_messages_cpp
+[  0%] Built target fuse_pathfollowing_msgs_generate_messages_lisp
+[  0%] Built target fuse_pathfollowing_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target fuse_navigation_msgs_generate_messages_lisp
+[  0%] Built target holonomic_controller_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target fuse_navigation_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  3%] Built target tilt_bt_action_node
+[  6%] Built target hocon_bt_action_node
+[  9%] Built target is_previous_action_complete_bt_condition_node
+[ 12%] Built target is_in_zone_bt_condition_node
+[ 15%] Built target follow_path_bt_action_node
+[ 18%] Built target shift_bt_action_node
+[ 21%] Built target is_resource_available_bt_condition_nodes
+[ 24%] Built target is_first_action_of_same_type_bt_condition_node
+[ 30%] Built target lift_bt_action_node
+[ 30%] Built target fibonacci_bt_action_node
+[35m[1mScanning dependencies of target behavior_manager[0m
+[ 33%] Built target reach_bt_action_node
+[35m[1mScanning dependencies of target node_map_node[0m
+[ 36%] Built target honk_bt_action_node
+[ 37%] [32mBuilding CXX object CMakeFiles/behavior_manager.dir/src/node_map.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/node_map_node.dir/src/node_map.cpp.o[0m
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:197:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_item[m[K’ was not declared in this scope
+   std::vector<std::string> location_ID = [01;31m[Knode_item[m[K.value()["locationId"];
+                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:197:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmode_t[m[K’
+   std::vector<std::string> location_ID = [01;36m[Knode_item[m[K.value()["locationId"];
+                                          [01;36m[K^~~~~~~~~[m[K
+                                          [32m[Kmode_t[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:197:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_item[m[K’ was not declared in this scope
+   std::vector<std::string> location_ID = [01;31m[Knode_item[m[K.value()["locationId"];
+                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:197:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmode_t[m[K’
+   std::vector<std::string> location_ID = [01;36m[Knode_item[m[K.value()["locationId"];
+                                          [01;36m[K^~~~~~~~~[m[K
+                                          [32m[Kmode_t[m[K
+CMakeFiles/behavior_manager.dir/build.make:110: recipe for target 'CMakeFiles/behavior_manager.dir/src/node_map.cpp.o' failed
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+CMakeFiles/Makefile2:2258: recipe for target 'CMakeFiles/behavior_manager.dir/all' failed
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/node_map_node.dir/build.make:110: recipe for target 'CMakeFiles/node_map_node.dir/src/node_map.cpp.o' failed
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+CMakeFiles/Makefile2:4250: recipe for target 'CMakeFiles/node_map_node.dir/all' failed
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

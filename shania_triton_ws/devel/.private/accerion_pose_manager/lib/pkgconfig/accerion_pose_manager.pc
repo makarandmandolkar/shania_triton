@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/accerion_pose_manager
+
+Name: accerion_pose_manager
+Description: Description of accerion_pose_manager
+Version: 6.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: accerion_driver_msgs

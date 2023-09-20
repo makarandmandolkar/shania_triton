@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/roboteq_minican/share/roboteq_minican/cmake/roboteq_minicanConfig.cmake

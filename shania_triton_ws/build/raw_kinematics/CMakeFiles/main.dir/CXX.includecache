@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/BBTriVehicle.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/DiffVehicle.h
+WheelOdometry.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/WheelOdometry.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/MecanumVehicle.h
+WheelOdometry.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/WheelOdometry.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/TriVehicle.h
+WheelOdometry.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/WheelOdometry.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/UniVehicle.h
+WheelOdometry.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/WheelOdometry.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/include/raw_kinematics/WheelOdometry.h
+
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/main.cpp
+iostream
+-
+raw_kinematics/WheelOdometry.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/WheelOdometry.h
+raw_kinematics/DiffVehicle.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/DiffVehicle.h
+raw_kinematics/UniVehicle.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/UniVehicle.h
+raw_kinematics/TriVehicle.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/TriVehicle.h
+raw_kinematics/BBTriVehicle.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/BBTriVehicle.h
+raw_kinematics/MecanumVehicle.h
+/home/makarand/Documents/shania_triton_ws/src/shania/shania_control/drive_kinematics/raw_kinematics/src/raw_kinematics/MecanumVehicle.h
+

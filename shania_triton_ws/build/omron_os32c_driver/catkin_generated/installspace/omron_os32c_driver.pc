@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/install
+
+Name: omron_os32c_driver
+Description: Description of omron_os32c_driver
+Version: 1.1.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lomron_os32c /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: diagnostic_updater odva_ethernetip rosconsole_bridge roscpp sensor_msgs

@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="twist_publisher" pkg="publishers" type="twist_publisher">
+  <param name="publish_hz" type="int" value="5" />
+  <param name="linear_x" type="double" value="0.0" />
+  <param name="linear_y" type="double" value="0.0" />
+  <param name="linear_z" type="double" value="0.0" />
+  <param name="angular_x" type="double" value="0.0" />
+  <param name="angular_y" type="double" value="0.0" />
+  <param name="angular_z" type="double" value="0.0" />
+</node>
+\endverbatim
+

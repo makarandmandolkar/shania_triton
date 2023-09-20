@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>rt7520_description</name>
+  <version>0.1.0</version>
+  <description>
+    3D model of the 7520 Reach Truck for simulation and visualization
+  </description>
+  <author email="mrasmussen@bastiansolutions.com">Marq</author>
+  <maintainer email="mrasmussen@bastiansolutions.com">Marq</maintainer>
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+</package>

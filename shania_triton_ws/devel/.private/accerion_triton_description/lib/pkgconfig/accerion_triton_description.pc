@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/accerion_triton_description
+
+Name: accerion_triton_description
+Description: Description of accerion_triton_description
+Version: 6.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

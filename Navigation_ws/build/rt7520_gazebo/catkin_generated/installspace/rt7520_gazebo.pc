@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: rt7520_gazebo
+Description: Description of rt7520_gazebo
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrt7520_gazebo
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs std_msgs tf gazebo_ros rt_carriage_controller_msgs rt_mission_msgs actionlib actionlib_msgs

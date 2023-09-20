@@ -1,0 +1,26 @@
+#goal definition
+int32 UNDEFINED=0
+int32 DRIVE_X=1
+int32 DRIVE_Y=2
+int32 ROTATE_Z=3
+
+
+geometry_msgs/Pose goal_pose
+geometry_msgs/Pose vehicle_pose
+float32 min_turn_radius
+int32 approach_enum
+float32 goal_tolerance
+---
+#result definition
+bool success
+
+int32 ERROR_GENERIC_ERROR=0
+int32 ERROR_TIMEOUT=1
+int32 ERROR_PREEMPT=2
+int32 ERROR_DEADMAN_IS_OFF=3
+int32 ERROR_CONTROLLER_OVERSHOOT=4
+
+int32 error_enum
+---
+#feedback
+float32 percent_complete

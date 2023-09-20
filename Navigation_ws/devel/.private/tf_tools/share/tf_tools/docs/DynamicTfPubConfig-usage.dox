@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dynamic_tf_pose" pkg="tf_tools" type="dynamic_tf_pose">
+  <param name="source_frame" type="str" value="base_link" />
+  <param name="destination_frame" type="str" value="" />
+  <param name="x_pos" type="double" value="0.0" />
+  <param name="y_pos" type="double" value="0.0" />
+  <param name="z_pos" type="double" value="0.0" />
+  <param name="roll" type="double" value="0.0" />
+  <param name="pitch" type="double" value="0.0" />
+  <param name="yaw" type="double" value="0.0" />
+</node>
+\endverbatim
+

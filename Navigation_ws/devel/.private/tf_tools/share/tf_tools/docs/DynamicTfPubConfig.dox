@@ -1,0 +1,13 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~source_frame" : \b [str] Name of the source frame to publish relitive to min: , default: base_link, max: 
+- \b "~destination_frame" : \b [str] Name of the dynamic frame to publish min: , default: , max: 
+- \b "~x_pos" : \b [double] Default X position min: -10.0, default: 0.0, max: 10.0
+- \b "~y_pos" : \b [double] Default Y position min: -10.0, default: 0.0, max: 10.0
+- \b "~z_pos" : \b [double] Default Z position min: -10.0, default: 0.0, max: 10.0
+- \b "~roll" : \b [double] Default Roll min: -3.2, default: 0.0, max: 3.2
+- \b "~pitch" : \b [double] Default Pitch min: -3.2, default: 0.0, max: 3.2
+- \b "~yaw" : \b [double] Default Yaw min: -3.2, default: 0.0, max: 3.2
+

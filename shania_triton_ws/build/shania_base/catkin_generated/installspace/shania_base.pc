@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/install
+
+Name: shania_base
+Description: Description of shania_base
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

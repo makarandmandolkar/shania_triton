@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/install
+
+Name: shania_bringup
+Description: Description of shania_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

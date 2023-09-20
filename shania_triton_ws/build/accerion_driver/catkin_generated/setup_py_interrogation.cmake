@@ -1,0 +1,7 @@
+set(accerion_driver_SETUP_PY_SETUP_MODULE "distutils.core")
+set(accerion_driver_SETUP_PY_VERSION "6.1.0")
+set(accerion_driver_SETUP_PY_SCRIPTS "")
+set(accerion_driver_SETUP_PY_PACKAGES "python_visualization;g2o")
+set(accerion_driver_SETUP_PY_PACKAGE_DIRS "accerionsensorapi/tools/python_visualization;accerionsensorapi/tools/python_visualization/g2o")
+set(accerion_driver_SETUP_PY_MODULES "")
+set(accerion_driver_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,1 @@
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_description/share/shania_description/cmake/shania_descriptionConfig-version.cmake

@@ -1,0 +1,23 @@
+\subsubsection usage Usage
+\verbatim
+<node name="holonomic_controller" pkg="holonomic_controller" type="holonomic_controller">
+  <param name="robot_frame" type="str" value="base_link" />
+  <param name="dock_frame" type="str" value="dock_truth" />
+  <param name="dock_pose_topic" type="str" value="docking/dock_pose" />
+  <param name="dock_gazebo_pose_topic" type="str" value="dock_pose_gazebo" />
+  <param name="use_calculated_pose" type="bool" value="True" />
+  <param name="goal_dist_tolerance" type="double" value="0.01" />
+  <param name="goal_orientation_tolerance" type="double" value="0.01" />
+  <param name="omega_max" type="double" value="0.3" />
+  <param name="lin_vel_min" type="double" value="0.0169" />
+  <param name="lin_vel_max" type="double" value="0.5" />
+  <param name="kp_translate" type="double" value="1.0" />
+  <param name="ki_translate" type="double" value="0.1" />
+  <param name="kd_translate" type="double" value="1.0" />
+  <param name="kp_rotate" type="double" value="1.0" />
+  <param name="ki_rotate" type="double" value="0.0" />
+  <param name="kd_rotate" type="double" value="0.5" />
+  <param name="control_frequency" type="double" value="10.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,18 @@
+(cl:in-package accerion_driver_msgs-srv)
+(cl:export '(UNICAST_IP_ADDRESS_FIRST-VAL
+          UNICAST_IP_ADDRESS_FIRST
+          UNICAST_IP_ADDRESS_SECOND-VAL
+          UNICAST_IP_ADDRESS_SECOND
+          UNICAST_IP_ADDRESS_THIRD-VAL
+          UNICAST_IP_ADDRESS_THIRD
+          UNICAST_IP_ADDRESS_FOURTH-VAL
+          UNICAST_IP_ADDRESS_FOURTH
+          MESSAGE_TYPE-VAL
+          MESSAGE_TYPE
+          UDP_MODE-VAL
+          UDP_MODE
+          SUCCESS-VAL
+          SUCCESS
+          MESSAGE-VAL
+          MESSAGE
+))

@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/share/roseus/ros/rt_mission_msgs/manifest.l

@@ -1,0 +1,4 @@
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/libroboteq_minican.so
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/roboteq_minican.pc
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/roboteq_minican/cmake/roboteq_minicanConfig.cmake
+Symlinking /home/makarand/Documents/shania_triton_ws/devel/share/roboteq_minican/cmake/roboteq_minicanConfig-version.cmake

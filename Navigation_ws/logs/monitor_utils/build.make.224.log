@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 10%] Built target odom_to_cmd_vel_error
+[ 10%] Built target _monitor_utils_generate_messages_check_deps_node_watchdog_service
+[ 10%] Built target _monitor_utils_generate_messages_check_deps_node_watchdog_status
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target _monitor_utils_generate_messages_check_deps_watched_node_data
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target std_msgs_generate_messages_cpp
+[ 10%] Built target std_msgs_generate_messages_py
+[ 25%] Built target monitor_utils_generate_messages_nodejs
+[ 40%] Built target monitor_utils_generate_messages_lisp
+[ 60%] Built target monitor_utils_generate_messages_eus
+[ 75%] Built target monitor_utils_generate_messages_cpp
+[100%] Built target monitor_utils_generate_messages_py
+[100%] Built target monitor_utils_generate_messages

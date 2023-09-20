@@ -1,0 +1,5 @@
+shania/shania_stage
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_stage/cmake.lock /home/makarand/Documents/shania_triton_ws/devel/./cmake.lock
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_stage/lib/pkgconfig/shania_stage.pc /home/makarand/Documents/shania_triton_ws/devel/lib/pkgconfig/shania_stage.pc
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_stage/share/shania_stage/cmake/shania_stageConfig.cmake /home/makarand/Documents/shania_triton_ws/devel/share/shania_stage/cmake/shania_stageConfig.cmake
+/home/makarand/Documents/shania_triton_ws/devel/.private/shania_stage/share/shania_stage/cmake/shania_stageConfig-version.cmake /home/makarand/Documents/shania_triton_ws/devel/share/shania_stage/cmake/shania_stageConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: tf_tools
+Description: Description of tf_tools
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltf_tools
+Requires: rospy tf2_ros dynamic_reconfigure

@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/makarand/Documents/shania_triton_ws/src/fuse_pathfollowing/fuse_pathfollowing_msgs/msg/DebugMetrics.msg;/home/makarand/Documents/shania_triton_ws/src/fuse_pathfollowing/fuse_pathfollowing_msgs/msg/PIDMetrics.msg;/home/makarand/Documents/shania_triton_ws/src/fuse_pathfollowing/fuse_pathfollowing_msgs/msg/Path.msg;/home/makarand/Documents/shania_triton_ws/src/fuse_pathfollowing/fuse_pathfollowing_msgs/msg/Segment.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathAction.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathActionGoal.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathActionResult.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathActionFeedback.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathGoal.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathResult.msg;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg/UpdatePathFeedback.msg"
+services_str = ""
+pkg_name = "fuse_pathfollowing_msgs"
+dependencies_str = "geometry_msgs;std_msgs;nav_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "fuse_pathfollowing_msgs;/home/makarand/Documents/shania_triton_ws/src/fuse_pathfollowing/fuse_pathfollowing_msgs/msg;fuse_pathfollowing_msgs;/home/makarand/Documents/shania_triton_ws/devel/.private/fuse_pathfollowing_msgs/share/fuse_pathfollowing_msgs/msg;geometry_msgs;/opt/ros/melodic/share/geometry_msgs/cmake/../msg;std_msgs;/opt/ros/melodic/share/std_msgs/cmake/../msg;nav_msgs;/opt/ros/melodic/share/nav_msgs/cmake/../msg;actionlib_msgs;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python2"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/Navigation_ws/install
+
+Name: param_utils
+Description: Description of param_utils
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy

@@ -1,0 +1,36 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kzone_details1[m[K’ was not declared in this scope
+     std::cout<<"the zones value:- "<<[01;31m[Kzone_details1[m[K<<std::endl;
+                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:151:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kzone_details[m[K’
+     std::cout<<"the zones value:- "<<[01;36m[Kzone_details1[m[K<<std::endl;
+                                      [01;36m[K^~~~~~~~~~~~~[m[K
+                                      [32m[Kzone_details[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kzone_details1[m[K’ was not declared in this scope
+     std::cout<<"the zones value:- "<<[01;31m[Kzone_details1[m[K<<std::endl;
+                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:151:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kzone_details[m[K’
+     std::cout<<"the zones value:- "<<[01;36m[Kzone_details1[m[K<<std::endl;
+                                      [01;36m[K^~~~~~~~~~~~~[m[K
+                                      [32m[Kzone_details[m[K
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/makarand/Documents/shania_triton_ws/devel/.private/logitech_f710
+
+Name: logitech_f710
+Description: Description of logitech_f710
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

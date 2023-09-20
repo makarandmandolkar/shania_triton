@@ -1,0 +1,2 @@
+set(holonomic_controller_MESSAGE_FILES "msg/approach_goalAction.msg;msg/approach_goalActionGoal.msg;msg/approach_goalActionResult.msg;msg/approach_goalActionFeedback.msg;msg/approach_goalGoal.msg;msg/approach_goalResult.msg;msg/approach_goalFeedback.msg;msg/DockingAction.msg;msg/DockingActionGoal.msg;msg/DockingActionResult.msg;msg/DockingActionFeedback.msg;msg/DockingGoal.msg;msg/DockingResult.msg;msg/DockingFeedback.msg")
+set(holonomic_controller_SERVICE_FILES "")

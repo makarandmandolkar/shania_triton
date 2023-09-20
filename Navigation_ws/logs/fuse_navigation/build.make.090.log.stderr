@@ -1,0 +1,228 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:37:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_node_id[m[K’ was not declared in this scope
+       fuse_navigation::NodeIdPair p{[01;31m[Korigin_node_id[m[K, destination_node_id};
+                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kprev_node_[m[K’
+       fuse_navigation::NodeIdPair p{[01;36m[Korigin_node_id[m[K, destination_node_id};
+                                     [01;36m[K^~~~~~~~~~~~~~[m[K
+                                     [32m[Kprev_node_[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestination_node_id[m[K’ was not declared in this scope
+       fuse_navigation::NodeIdPair p{origin_node_id, [01;31m[Kdestination_node_id[m[K};
+                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::pair(<brace-enclosed initializer list>)[m[K’
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;31m[K}[m[K;
+                                                                        [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/utility:70:0[m[K,
+                 from [01m[K/usr/include/boost/serialization/nvp.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/bimap/bimap.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/bimap.hpp:13[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:17[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14[m[K:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)
+         [01;36m[Kpair[m[K(tuple<_Args1...>&, tuple<_Args2...>&,
+         [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)
+         [01;36m[Kpair[m[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);
+         [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)
+  explicit constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)
+  constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+            [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)
+  explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)
+  constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+            [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U2, typename std::enable_if<_CopyMovePair<false, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)
+        explicit [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U2, typename std::enable_if<_CopyMovePair<true, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)
+        constexpr [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+                  [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)
+        explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+                           [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)
+        constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+                  [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[Kcandidate: std::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::__cxx11::basic_string<char>; _T2 = std::__cxx11::basic_string<char>]
+       constexpr [01;36m[Kpair[m[K(pair&&) = default;
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/7/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[Kcandidate: std::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::__cxx11::basic_string<char>; _T2 = std::__cxx11::basic_string<char>]
+       constexpr [01;36m[Kpair[m[K(const pair&) = default;
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/7/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)
+  explicit constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)
+         constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+                   [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)
+       explicit constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)
+       constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_Dp>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()
+       explicit constexpr [01;36m[Kpair[m[K()
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;36m[K}[m[K;
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/utility:70:0[m[K,
+                 from [01m[K/usr/include/boost/serialization/nvp.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/bimap/bimap.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/bimap.hpp:13[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:17[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14[m[K:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()
+       _GLIBCXX_CONSTEXPR [01;36m[Kpair[m[K()
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;36m[K}[m[K;
+                                                                        [01;36m[K^[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:37:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_node_id[m[K’ was not declared in this scope
+       fuse_navigation::NodeIdPair p{[01;31m[Korigin_node_id[m[K, destination_node_id};
+                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kprev_node_[m[K’
+       fuse_navigation::NodeIdPair p{[01;36m[Korigin_node_id[m[K, destination_node_id};
+                                     [01;36m[K^~~~~~~~~~~~~~[m[K
+                                     [32m[Kprev_node_[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestination_node_id[m[K’ was not declared in this scope
+       fuse_navigation::NodeIdPair p{origin_node_id, [01;31m[Kdestination_node_id[m[K};
+                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::pair(<brace-enclosed initializer list>)[m[K’
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;31m[K}[m[K;
+                                                                        [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/utility:70:0[m[K,
+                 from [01m[K/usr/include/boost/serialization/nvp.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/bimap/bimap.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/bimap.hpp:13[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:17[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14[m[K:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)
+         [01;36m[Kpair[m[K(tuple<_Args1...>&, tuple<_Args2...>&,
+         [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)
+         [01;36m[Kpair[m[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);
+         [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)
+  explicit constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)
+  constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+            [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)
+  explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)
+  constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+            [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U2, typename std::enable_if<_CopyMovePair<false, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)
+        explicit [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U2, typename std::enable_if<_CopyMovePair<true, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)
+        constexpr [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+                  [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)
+        explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+                           [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)
+        constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+                  [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[Kcandidate: std::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::__cxx11::basic_string<char>; _T2 = std::__cxx11::basic_string<char>]
+       constexpr [01;36m[Kpair[m[K(pair&&) = default;
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/7/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[Kcandidate: std::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::__cxx11::basic_string<char>; _T2 = std::__cxx11::basic_string<char>]
+       constexpr [01;36m[Kpair[m[K(const pair&) = default;
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/7/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)
+  explicit constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::__cxx11::basic_string<char>, _U1>::value) || (! std::is_same<std::__cxx11::basic_string<char>, _U2>::value)), std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)
+         constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+                   [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)
+       explicit constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)
+       constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+                 [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_Dp>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()
+       explicit constexpr [01;36m[Kpair[m[K()
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;36m[K}[m[K;
+                                                                        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/utility:70:0[m[K,
+                 from [01m[K/usr/include/boost/serialization/nvp.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/bimap/bimap.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/bimap.hpp:13[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:17[m[K,
+                 from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14[m[K:
+[01m[K/usr/include/c++/7/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[Kcandidate: template<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()
+       _GLIBCXX_CONSTEXPR [01;36m[Kpair[m[K()
+                          [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:245:72:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+       fuse_navigation::NodeIdPair p{origin_node_id, destination_node_id[01;36m[K}[m[K;
+                                                                        [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/share/roseus/ros/rt_mission_msgs/srv/write_pallet_location_to_file.l

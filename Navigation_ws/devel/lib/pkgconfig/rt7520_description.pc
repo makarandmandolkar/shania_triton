@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt7520_description/lib/pkgconfig/rt7520_description.pc

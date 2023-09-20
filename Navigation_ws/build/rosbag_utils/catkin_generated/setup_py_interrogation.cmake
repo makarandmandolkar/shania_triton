@@ -1,0 +1,7 @@
+set(rosbag_utils_SETUP_PY_SETUP_MODULE "distutils.core")
+set(rosbag_utils_SETUP_PY_VERSION "0.0.0")
+set(rosbag_utils_SETUP_PY_SCRIPTS "scripts/bag_catcher")
+set(rosbag_utils_SETUP_PY_PACKAGES "bag_catcher_module")
+set(rosbag_utils_SETUP_PY_PACKAGE_DIRS "src/bag_catcher_module")
+set(rosbag_utils_SETUP_PY_MODULES "")
+set(rosbag_utils_SETUP_PY_MODULE_DIRS "")

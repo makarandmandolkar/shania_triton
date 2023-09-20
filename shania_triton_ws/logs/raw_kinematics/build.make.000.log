@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target raw_kinematics[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/TriVehicle.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/DiffVehicle.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/BBTriVehicle.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/UniVehicle.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/MecanumVehicle.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/raw_kinematics.dir/src/WheelOdometry.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library /home/makarand/Documents/shania_triton_ws/devel/.private/raw_kinematics/lib/libraw_kinematics.so[0m
+[ 77%] Built target raw_kinematics
+[35m[1mScanning dependencies of target main[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/makarand/Documents/shania_triton_ws/devel/.private/raw_kinematics/lib/raw_kinematics/main[0m
+[100%] Built target main

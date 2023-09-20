@@ -1,0 +1,20 @@
+# Goal
+string goal_parent_frame
+geometry_msgs/Point goal_position
+geometry_msgs/Vector3 goal_euler_orientation
+float64 goal_tolerance
+float64 lin_vel_max
+---
+# Result
+bool success 
+
+int32 ERROR_GENERIC_ERROR=0
+int32 ERROR_TIMEOUT=1
+int32 ERROR_PREEMPT=2
+int32 ERROR_DEADMAN_IS_OFF=3
+int32 ERROR_CONTROLLER_OVERSHOOT=4
+
+int32 error_enum
+---
+#Feedback
+int32 status

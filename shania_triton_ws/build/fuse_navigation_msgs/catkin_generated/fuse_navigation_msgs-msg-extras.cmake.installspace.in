@@ -1,0 +1,2 @@
+set(fuse_navigation_msgs_MESSAGE_FILES "msg/TaskAction.msg;msg/ExecutePathAction.msg;msg/ExecutePathActionGoal.msg;msg/ExecutePathActionResult.msg;msg/ExecutePathActionFeedback.msg;msg/ExecutePathGoal.msg;msg/ExecutePathResult.msg;msg/ExecutePathFeedback.msg;msg/ExecuteTaskAction.msg;msg/ExecuteTaskActionGoal.msg;msg/ExecuteTaskActionResult.msg;msg/ExecuteTaskActionFeedback.msg;msg/ExecuteTaskGoal.msg;msg/ExecuteTaskResult.msg;msg/ExecuteTaskFeedback.msg")
+set(fuse_navigation_msgs_SERVICE_FILES "")

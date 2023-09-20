@@ -1,0 +1,31 @@
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathResult
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskResult
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathActionFeedback
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskActionGoal
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathActionResult
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathFeedback
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskAction
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathActionGoal
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskGoal
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskActionFeedback
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskFeedback
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_TaskAction
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathGoal
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecuteTaskActionResult
+[  0%] Built target _fuse_navigation_msgs_generate_messages_check_deps_ExecutePathAction
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[ 19%] Built target fuse_navigation_msgs_generate_messages_cpp
+[ 38%] Built target fuse_navigation_msgs_generate_messages_lisp
+[ 80%] Built target fuse_navigation_msgs_generate_messages_py
+[ 80%] Built target fuse_navigation_msgs_generate_messages_eus
+[100%] Built target fuse_navigation_msgs_generate_messages_nodejs
+[100%] Built target fuse_navigation_msgs_generate_messages

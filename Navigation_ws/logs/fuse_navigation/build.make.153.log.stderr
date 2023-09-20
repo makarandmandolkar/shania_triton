@@ -1,0 +1,36 @@
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:64:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::ostream& fuse_navigation::operator<<(std::ostream&, const fuse_navigation::MapLocation&)[m[K’ has not been declared within fuse_navigation
+ std::ostream &[01;35m[Kfuse_navigation[m[K::operator<<(std::ostream &os, const fuse_navigation::MapLocation &location) {
+               [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:14:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/node_map.h:67:24:[m[K [01;36m[Knote: [m[Konly here as a friend
+   friend std::ostream &[01;36m[Koperator[m[K<<(std::ostream &os, const MapLocation &location);
+                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:149:34:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::__cxx11::string& {aka std::__cxx11::basic_string<char>&}[m[K’ to an rvalue of type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+     std::string &zone_details1 = [01;31m[Kzone_details[m[K;
+                                  [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:15:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/json.hpp:19803:19:[m[K [01;36m[Knote: [m[K  after user-defined conversion: nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator ValueType() const [with ValueType = std::__cxx11::basic_string<char>; typename std::enable_if<((((((! std::is_pointer<_Ptr>::value) && (! std::is_same<ValueType, nlohmann::detail::json_ref<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType> > >::value)) && (! std::is_same<ValueType, typename StringType::value_type>::value)) && (! nlohmann::detail::is_basic_json<BasicJsonType>::value)) && (! std::is_same<ValueType, std::initializer_list<typename StringType::value_type> >::value)) && typename nlohmann::detail::detector<nlohmann::detail::nonesuch, void, nlohmann::detail::get_template_function, const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&, ValueType>::value_t:: value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]
+     JSON_EXPLICIT [01;36m[Koperator[m[K ValueType() const
+                   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:[m[K In member function ‘[01m[Kbool fuse_navigation::NodeMap::loadJSON(const string&)[m[K’:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:149:34:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::__cxx11::string& {aka std::__cxx11::basic_string<char>&}[m[K’ to an rvalue of type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+     std::string &zone_details1 = [01;31m[Kzone_details[m[K;
+                                  [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/src/node_map.cpp:15:0[m[K:
+[01m[K/home/makarand/Documents/Navigation_ws/src/fuse_navigation/fuse_navigation/include/fuse_navigation/json.hpp:19803:19:[m[K [01;36m[Knote: [m[K  after user-defined conversion: nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator ValueType() const [with ValueType = std::__cxx11::basic_string<char>; typename std::enable_if<((((((! std::is_pointer<_Ptr>::value) && (! std::is_same<ValueType, nlohmann::detail::json_ref<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType> > >::value)) && (! std::is_same<ValueType, typename StringType::value_type>::value)) && (! nlohmann::detail::is_basic_json<BasicJsonType>::value)) && (! std::is_same<ValueType, std::initializer_list<typename StringType::value_type> >::value)) && typename nlohmann::detail::detector<nlohmann::detail::nonesuch, void, nlohmann::detail::get_template_function, const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&, ValueType>::value_t:: value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]
+     JSON_EXPLICIT [01;36m[Koperator[m[K ValueType() const
+                   [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/node_map_node.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_map_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/behavior_manager.dir/src/node_map.cpp.o] Error 1
+make[1]: *** [CMakeFiles/behavior_manager.dir/all] Error 2
+make: *** [all] Error 2

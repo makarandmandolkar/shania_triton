@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/lib/python2.7/dist-packages/rt_mission_msgs/srv/_get_pallet_in_map.py

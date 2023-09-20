@@ -1,0 +1,163 @@
+;; Auto-generated. Do not edit!
+
+
+(when (boundp 'holonomic_controller::approach_goalGoal)
+  (if (not (find-package "HOLONOMIC_CONTROLLER"))
+    (make-package "HOLONOMIC_CONTROLLER"))
+  (shadow 'approach_goalGoal (find-package "HOLONOMIC_CONTROLLER")))
+(unless (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL")
+  (make-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+
+(in-package "ROS")
+;;//! \htmlinclude approach_goalGoal.msg.html
+(if (not (find-package "GEOMETRY_MSGS"))
+  (ros::roseus-add-msgs "geometry_msgs"))
+
+
+(intern "*UNDEFINED*" (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(shadow '*UNDEFINED* (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(defconstant holonomic_controller::approach_goalGoal::*UNDEFINED* 0)
+(intern "*DRIVE_X*" (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(shadow '*DRIVE_X* (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(defconstant holonomic_controller::approach_goalGoal::*DRIVE_X* 1)
+(intern "*DRIVE_Y*" (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(shadow '*DRIVE_Y* (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(defconstant holonomic_controller::approach_goalGoal::*DRIVE_Y* 2)
+(intern "*ROTATE_Z*" (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(shadow '*ROTATE_Z* (find-package "HOLONOMIC_CONTROLLER::APPROACH_GOALGOAL"))
+(defconstant holonomic_controller::approach_goalGoal::*ROTATE_Z* 3)
+(defclass holonomic_controller::approach_goalGoal
+  :super ros::object
+  :slots (_goal_pose _vehicle_pose _min_turn_radius _approach_enum _goal_tolerance ))
+
+(defmethod holonomic_controller::approach_goalGoal
+  (:init
+   (&key
+    ((:goal_pose __goal_pose) (instance geometry_msgs::Pose :init))
+    ((:vehicle_pose __vehicle_pose) (instance geometry_msgs::Pose :init))
+    ((:min_turn_radius __min_turn_radius) 0.0)
+    ((:approach_enum __approach_enum) 0)
+    ((:goal_tolerance __goal_tolerance) 0.0)
+    )
+   (send-super :init)
+   (setq _goal_pose __goal_pose)
+   (setq _vehicle_pose __vehicle_pose)
+   (setq _min_turn_radius (float __min_turn_radius))
+   (setq _approach_enum (round __approach_enum))
+   (setq _goal_tolerance (float __goal_tolerance))
+   self)
+  (:goal_pose
+   (&rest __goal_pose)
+   (if (keywordp (car __goal_pose))
+       (send* _goal_pose __goal_pose)
+     (progn
+       (if __goal_pose (setq _goal_pose (car __goal_pose)))
+       _goal_pose)))
+  (:vehicle_pose
+   (&rest __vehicle_pose)
+   (if (keywordp (car __vehicle_pose))
+       (send* _vehicle_pose __vehicle_pose)
+     (progn
+       (if __vehicle_pose (setq _vehicle_pose (car __vehicle_pose)))
+       _vehicle_pose)))
+  (:min_turn_radius
+   (&optional __min_turn_radius)
+   (if __min_turn_radius (setq _min_turn_radius __min_turn_radius)) _min_turn_radius)
+  (:approach_enum
+   (&optional __approach_enum)
+   (if __approach_enum (setq _approach_enum __approach_enum)) _approach_enum)
+  (:goal_tolerance
+   (&optional __goal_tolerance)
+   (if __goal_tolerance (setq _goal_tolerance __goal_tolerance)) _goal_tolerance)
+  (:serialization-length
+   ()
+   (+
+    ;; geometry_msgs/Pose _goal_pose
+    (send _goal_pose :serialization-length)
+    ;; geometry_msgs/Pose _vehicle_pose
+    (send _vehicle_pose :serialization-length)
+    ;; float32 _min_turn_radius
+    4
+    ;; int32 _approach_enum
+    4
+    ;; float32 _goal_tolerance
+    4
+    ))
+  (:serialize
+   (&optional strm)
+   (let ((s (if strm strm
+              (make-string-output-stream (send self :serialization-length)))))
+     ;; geometry_msgs/Pose _goal_pose
+       (send _goal_pose :serialize s)
+     ;; geometry_msgs/Pose _vehicle_pose
+       (send _vehicle_pose :serialize s)
+     ;; float32 _min_turn_radius
+       (sys::poke _min_turn_radius (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; int32 _approach_enum
+       (write-long _approach_enum s)
+     ;; float32 _goal_tolerance
+       (sys::poke _goal_tolerance (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;;
+     (if (null strm) (get-output-stream-string s))))
+  (:deserialize
+   (buf &optional (ptr- 0))
+   ;; geometry_msgs/Pose _goal_pose
+     (send _goal_pose :deserialize buf ptr-) (incf ptr- (send _goal_pose :serialization-length))
+   ;; geometry_msgs/Pose _vehicle_pose
+     (send _vehicle_pose :deserialize buf ptr-) (incf ptr- (send _vehicle_pose :serialization-length))
+   ;; float32 _min_turn_radius
+     (setq _min_turn_radius (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; int32 _approach_enum
+     (setq _approach_enum (sys::peek buf ptr- :integer)) (incf ptr- 4)
+   ;; float32 _goal_tolerance
+     (setq _goal_tolerance (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;;
+   self)
+  )
+
+(setf (get holonomic_controller::approach_goalGoal :md5sum-) "06b0f36a422cb4dd202e7db3401240d0")
+(setf (get holonomic_controller::approach_goalGoal :datatype-) "holonomic_controller/approach_goalGoal")
+(setf (get holonomic_controller::approach_goalGoal :definition-)
+      "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======
+#goal definition
+int32 UNDEFINED=0
+int32 DRIVE_X=1
+int32 DRIVE_Y=2
+int32 ROTATE_Z=3
+
+
+geometry_msgs/Pose goal_pose
+geometry_msgs/Pose vehicle_pose
+float32 min_turn_radius
+int32 approach_enum
+float32 goal_tolerance
+
+================================================================================
+MSG: geometry_msgs/Pose
+# A representation of pose in free space, composed of position and orientation. 
+Point position
+Quaternion orientation
+
+================================================================================
+MSG: geometry_msgs/Point
+# This contains the position of a point in free space
+float64 x
+float64 y
+float64 z
+
+================================================================================
+MSG: geometry_msgs/Quaternion
+# This represents an orientation in free space in quaternion form.
+
+float64 x
+float64 y
+float64 z
+float64 w
+
+")
+
+
+
+(provide :holonomic_controller/approach_goalGoal "06b0f36a422cb4dd202e7db3401240d0")
+
+

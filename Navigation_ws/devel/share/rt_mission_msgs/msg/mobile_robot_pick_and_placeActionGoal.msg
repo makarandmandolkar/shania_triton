@@ -1,0 +1,1 @@
+/home/makarand/Documents/Navigation_ws/devel/.private/rt_mission_msgs/share/rt_mission_msgs/msg/mobile_robot_pick_and_placeActionGoal.msg

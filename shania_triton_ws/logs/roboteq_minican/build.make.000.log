@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target roboteq_minican[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/roboteq_minican.dir/src/roboteq_minican.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/makarand/Documents/shania_triton_ws/devel/.private/roboteq_minican/lib/libroboteq_minican.so[0m
+[100%] Built target roboteq_minican
